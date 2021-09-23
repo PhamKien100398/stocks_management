@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+    <decorator name="admin" page="admin/index.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+    
+    <decorator name="login" page="admin/login.jsp">
+        <pattern>/login*</pattern>
+    </decorator>
+    
+    <decorator name="page" page="admin/page_403.jsp">
+        <pattern>/access-denied</pattern>
+    </decorator>
+</decorators>
